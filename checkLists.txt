@@ -1,0 +1,72 @@
+#      Type	           Title / Summary	                         Expected result	            Status 
+	Registration 
+1	P	Create the account using valid registration data	Account created 	Pass
+2	N	Create the account using invalid phone number/ password/ email 	Account not created 	Pass
+3	P	Make sure that user can use Latin, Cyrillic, uppercase, slash and space for first name/ last name section 	User can use Latin, Cyrillic, uppercase, slash and space for first name/ last name section	Pass
+4	P	Make sure that user can’t use numbers and other special symbols for first name/ last name section 	User can’t use numbers and other special symbols 	Pass
+5	P	Make sure that user can choose any region from the list 	All regions are available 	Pass
+6	P	Make sure that user can change password 	User can change password	Pass
+7	P	Make sure user can’t proceed with the registration without necessary agreement with the terms of the contract	Error note	Pass
+8	P	Make sure user can’t proceed with the registration without necessary agreement with the privacy policy 	Error note	Pass
+9	P	Make sure that quick login procedure is available	Quick login procedure is available 	Pass
+10	P	Make sure that Touch ID authentication works	Touch ID authentication works	Pass
+11	P	Make sure that pin/ smart cod authentication works	Pin/ smart cod authentication works	Pass
+	Profile 
+12	P	Make sure that profile data is editable 	profile data is editable 	Pass
+13	P	Make sure that user can add a photo 	user can add a photo	Pass
+14	P	Make sure that user can exit application 	user can exit application	Pass
+15	P	Make sure that user can change language of the app 	user can choose language of the app	Pass
+16	P	Make sure that user can change theme of the app 	 user can change theme of the app	Pass
+17	P	Make sure that About app section is available 	 About app section is available	Pass
+18	P	Make sure that Notification section is available 	Notification section is available	Pass
+19	P	Make sure that user can add a valid card	user can add a valid card	Pass
+20	P	Make sure that user can add MasterCard/Visa/БЕЛКАРТ	user can add MasterCard/Visa/БЕЛКАРТ	Pass
+21	P	Make sure that user can change a card 	 user can change a card	Pass
+22	N	Make sure that user can’t add a card with invalid card number	 user can’t add a card with invalid card number 	Pass
+23	N	Make sure that user can’t add a card with invalid expiration date 	user can’t add a card with invalid expiration date	Pass
+24	N	Make sure that user can’t add a card with invalid cvc code	 user can’t add a card with invalid cvc code	Pass
+	Ticket 
+25	P	Make sure that Ticket for one ride item is available 	Ticket for one ride is available	Pass 
+26	P	Make sure that user can buy one-way ticket 	user can buy one-way ticket	Pass
+27	P	Make sure that user can buy a ride 	user can buy a ride	Pass
+28	P	Make sure that user can buy an express ride	user can buy an express ride	Pass
+29	P	Make sure that Ticket to constant time item is available	Ticket to constant time item is available	Pass
+30	P	Make sure that user can buy a travel pass for 10 days 	user can buy a travel pass for 10 days 	Pass
+31	P	Make sure that user can buy a travel pass for 1 month 	user can buy a travel pass for 1 month 	Pass
+
+#     Type	     Title / Summary	                            Expected result	                       Status 
+	Registration 
+1	P	Create the account using valid registration data	Account created 	Pass
+2	N	Create the account using invalid phone number/ password/ email 	Account not created 	Pass
+3	P	Make sure that user can use Latin, Cyrillic, uppercase, slash and space for first name/ last name section 	User can use Latin, Cyrillic, uppercase, slash and space for first name/ last name section	Pass
+4	P	Make sure that user can’t use numbers and other special symbols for first name/ last name section 	User can’t use numbers and other special symbols 	Pass
+5	P	Make sure that user can choose any region from the list 	All regions are available 	Pass
+6	P	Make sure that user can change password 	User can change password	Pass
+7	P	Make sure user can’t proceed with the registration without necessary agreement with the terms of the contract	Error note	Pass
+8	P	Make sure user can’t proceed with the registration without necessary agreement with the privacy policy 	Error note	Pass
+9	P	Make sure that quick login procedure is available	Quick login procedure is available 	Pass
+10	P	Make sure that Touch ID authentication works	Touch ID authentication works	Pass
+11	P	Make sure that pin/ smart cod authentication works	Pin/ smart cod authentication works	Pass
+	Profile 
+12	P	Make sure that profile data is editable 	profile data is editable 	Pass
+13	P	Make sure that user can add a photo 	user can add a photo	Pass
+14	P	Make sure that user can exit application 	user can exit application	Pass
+15	P	Make sure that user can change language of the app 	user can choose language of the app	Pass
+16	P	Make sure that user can change theme of the app 	 user can change theme of the app	Pass
+17	P	Make sure that About app section is available 	 About app section is available	Pass
+18	P	Make sure that Notification section is available 	Notification section is available	Pass
+19	P	Make sure that user can add a valid card	user can add a valid card	Pass
+20	P	Make sure that user can add MasterCard/Visa/БЕЛКАРТ	user can add MasterCard/Visa/БЕЛКАРТ	Pass
+21	P	Make sure that user can change a card 	 user can change a card	Pass
+22	N	Make sure that user can’t add a card with invalid card number	 user can’t add a card with invalid card number 	Pass
+23	N	Make sure that user can’t add a card with invalid expiration date 	user can’t add a card with invalid expiration date	Pass
+24	N	Make sure that user can’t add a card with invalid cvc code	 user can’t add a card with invalid cvc code	Pass
+	Ticket 
+25	P	Make sure that Ticket for one ride item is available 	Ticket for one ride is available	Pass 
+26	P	Make sure that user can buy one-way ticket 	user can buy one-way ticket	Pass
+27	P	Make sure that user can buy a ride 	user can buy a ride	Pass
+28	P	Make sure that user can buy an express ride	user can buy an express ride	Pass
+29	P	Make sure that Ticket to constant time item is available	Ticket to constant time item is available	Pass
+30	P	Make sure that user can buy a travel pass for 10 days 	user can buy a travel pass for 10 days 	Pass
+31	P	Make sure that user can buy a travel pass for 1 month 	user can buy a travel pass for 1 month 	Pass
+
